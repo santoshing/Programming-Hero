@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+       font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+       width: 1300px;
+       height: auto;
+}
+
+nav {
+       display: flex;
+       justify-content: space-between;
+}
+
+.logo-container {
+       display: flex;
+
+
+       justify-content: space-between;
+       text-align: center;
+}
+
+.logo {}
+
+.title {
+       text-align: center;
+}
+
+nav>ul {
+       display: flex;
+}
+
+
+nav li {
+       list-style: none;
+       margin-right: 30px;
+       font-weight: 500;
+       font-size: 1rem;
+}
+
+.box {
+       width: 1170px;
+       height: 500px;
+       text-align: center;
+       margin: auto;
+       border: 2px solid blue;
+       background-image: url(../Assignment-modul-11/Travel-main/Images/background.png);
+
+
+}
+
+.box-details {
+       text-align: center;
+}
+
+.form {
+       display: inline-flex;
+       padding: 16px;
+       align-items: flex-start;
+       gap: 24px;
+}
