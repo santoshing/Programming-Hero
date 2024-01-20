@@ -51,6 +51,24 @@ nav li {
 
 }
 
+.popularbox {
+       width: 1170px;
+       height: 500px;
+       margin: auto;
+       display: flex;
+       padding-top: 20px;
+       padding-bottom: 40px;
+
+}
+
+button {
+       width: 174px;
+       height: 52px;
+       flex-shrink: 0;
+       border-radius: 8px;
+       background: #FF5400;
+}
+
 .box-details {
        text-align: center;
 }
@@ -60,4 +78,34 @@ nav li {
        padding: 16px;
        align-items: flex-start;
        gap: 24px;
+}
+
+.box-container {
+
+       display: grid;
+       grid-template-columns: auto auto auto;
+       grid-gap: 10px;
+       background-color: #2196F3;
+       padding: 10px;
+
+}
+
+.box-container>div {
+       background-color: rgba(255, 255, 255, 0.8);
+       text-align: center;
+       padding: 20px;
+       font-size: 30px;
+}
+
+.item1 {
+       grid-area: 10px;
+       width: 573px;
+       height: 300px;
+       flex-shrink: 0;
+}
+
+.item2 {
+       width: 573px;
+       height: 300px;
+       flex-shrink: 0;
 }
