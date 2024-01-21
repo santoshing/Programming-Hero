@@ -80,32 +80,47 @@ button {
        gap: 24px;
 }
 
-.box-container {
 
+.grid-container {
        display: grid;
-       grid-template-columns: auto auto auto;
-       grid-gap: 10px;
-       background-color: #2196F3;
+       grid-template-columns: repeat(3, 1fr);
+       gap: 10px;
+}
+
+.column {
+       display: flex;
+       flex-direction: column;
+}
+
+.card,
+.row {
        padding: 10px;
+       border: 1px solid #ccc;
+       margin-bottom: 5px;
+}
+
+.grid-container {
+       width: 1300px;
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-column-start: 2;
+       gap: 20px;
+
+
+
 
 }
 
-.box-container>div {
-       background-color: rgba(255, 255, 255, 0.8);
-       text-align: center;
-       padding: 20px;
-       font-size: 30px;
+
+
+.item {
+       width: 400px;
+       border: 1px solid rgb(11, 99, 230);
+       height: 400px;
+       padding: 10px;
+       border-radius: 10px;
 }
 
-.item1 {
-       grid-area: 10px;
-       width: 573px;
-       height: 300px;
-       flex-shrink: 0;
-}
-
-.item2 {
-       width: 573px;
-       height: 300px;
-       flex-shrink: 0;
+.item img {
+       width: 100%;
 }
